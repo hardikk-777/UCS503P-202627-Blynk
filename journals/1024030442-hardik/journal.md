@@ -5,11 +5,11 @@
 **Week 1 — Project setup and requirements modelling**
 Finalized the project idea (Blynk) after comparing it against an IoT/edge-AI alternative. Wrote the project proposal in LaTeX, merging the professor's required framework with the general proposal guide. Built the UML use case diagram, DFD (Level 0 through 2), and set up the GitHub repository following the course template.
 
-**Week 2 — Additional diagrams and GitHub Pages**
-Built the ER diagram and activity/swimlane diagram in draw.io, following the professor's example notation from the whiteboard session. Set up the GitHub Pages site using the template's MkDocs workflow. Initially encountered a source-configuration issue because the workflow deploys to a `gh-pages` branch rather than through native GitHub Actions deployment. Resolved the issue by switching the Pages source to deploy from the `gh-pages` branch directly.
-
-**Week 3 — Core detection pipeline**
+**Week 2 — Core detection pipeline**
 Set up the React + Vite project structure under `code/blynk-app`. Implemented live webcam capture using `getUserMedia` and integrated MediaPipe's Face Landmarker model for real-time facial landmark detection (468 points), running entirely in-browser via WebAssembly. Implemented blink detection using the eye aspect ratio (EAR) technique on eyelid landmark points, with a live blink counter. Tested the detection across different lighting conditions and made initial adjustments to improve the reliability of the detection.
+
+**Week 3 — Additional diagrams and GitHub Pages**
+Built the ER diagram and activity/swimlane diagram in draw.io, following the professor's example notation from the whiteboard session. Set up the GitHub Pages site using the template's MkDocs workflow. Initially encountered a source-configuration issue because the workflow deploys to a `gh-pages` branch rather than through native GitHub Actions deployment. Resolved the issue by switching the Pages source to deploy from the `gh-pages` branch directly.
 
 **Week 4 — Improving blink detection and application interface**
 Worked on improving the reliability of the blink detection pipeline. Tested the EAR-based detection with different eye movements and adjusted the threshold and timing conditions to reduce false blink counts. Added basic handling for cases where a face is not detected or the webcam is unavailable. Continued developing the React interface around the detection pipeline and organized the application into separate components for easier maintenance and further development.
