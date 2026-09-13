@@ -58,14 +58,14 @@ Open `http://localhost:5173` and allow camera access.
 
 | Deliverable | Description | Access |
 | --- | --- | --- |
-| Project proposal | Problem definition, scope, and methodology | [View PDF](https://github.com/hardikk-777/UCS503P-202627-Blynk/blob/master/project-proposal/blynk_final_proposal.pdf) |
-| UML use case diagram | Actor and use case modelling | [View diagram](diagrams/Use_Case_Diagram.pdf) |
-| Data flow diagrams | Context, Level 1, and Level 2 process decomposition | [View diagram](diagrams/DFD_Levels_0_1_2.pdf) |
+| Project proposal | Problem definition, scope, and methodology | [View PDF](../project-proposal/blynk_final_proposal.pdf) |
+| UML use case diagram | Actor and use case modelling with include/extend relationships | [View diagram](diagrams/Use_Case_Diagram.pdf) |
+| Data flow diagrams | Context, Level 1, and Level 2 process decomposition | [View diagrams](diagrams/DFD_Levels_0_1_2.pdf) |
 | Entity-relationship diagram | Local data model for metrics, break events, and history | [View diagram](diagrams/ER_Diagram.pdf) |
 | Activity / swimlane diagram | User and System workflow through detection, break, and verification | [View diagram](diagrams/ActivityDiag.drawio.png) |
 | Gantt chart | 8 week development schedule | [View chart](diagrams/Blynk_gant_chart.pdf) |
-| Progress presentation | Introduction, background, methodology, and current results | [View PDF](BlynkPresentation.pdf) |
-| Mid-semester report | Full prototype-stage evaluation report | [View PDF](https://github.com/hardikk-777/UCS503P-202627-Blynk/blob/master/project-report-prototype-stage/blynk_midsem_report.pdf) |
+| Progress presentation | Introduction, background, methodology, and current results | [View PDF](diagrams/BlynkPresentation.pdf) |
+| Mid-semester report | Full prototype-stage evaluation report | [View PDF](../project-report-prototype-stage/blynk_midsem_report.pdf) |
 
 ## 📅 Project roadmap
 
