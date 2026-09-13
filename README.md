@@ -1,45 +1,31 @@
-# UCS503P Project Template
+# Blynk — Browser-Based Eye Strain and Posture Monitor
 
-This is a project template for UCS503P Project (2026-27
-ODD). 
+**UCS503P Software Engineering Project · Academic Year 2026–27**
+Hardik Chandna · Roll No. 1024030442 · Solo project
 
-There are 3 reports in LaTeX format, namely *a*)
-Project Proposal, *b*) Project Report Prototype Stage,
-and *c*) Project Report Final -- each in their
-respective folders.
+Blynk is a privacy-first, browser-based application that tracks eye strain and screen distance in real time using on-device computer vision, with no video ever leaving the user's device. A break-enforcement feature verifies, through live gaze tracking, that a recovery exercise was genuinely completed — not just reminded and ignored.
 
-Journals are stacked under the folder `journals`, one
-folder for each team member.  A sample entry has been
-made for example.
+📄 **Live project site:** https://hardikk-777.github.io/UCS503P-202627-Blynk/
 
-The source code is contained within the folder `code`.
+## Repository structure
 
-The documentation is under folder `docs`.
+- **`code/`** — application source code (React + Vite, MediaPipe-based detection pipeline)
+- **`docs/`** — GitHub Pages site source, including all formal diagrams and the progress presentation
+- **`project-proposal/`** — initial project proposal (LaTeX + PDF)
+- **`project-report-prototype-stage/`** — mid-semester evaluation report (LaTeX + PDF)
+- **`project-report-final/`** — final report (added at project completion)
+- **`journals/1024030442-hardik/`** — dated development journal
 
-All other aspects of code organisation are left to the
-discretion of the user(s).
-
-
-## Docs
-
-As of now, the `docs` is just an organised collection
-of markdown (`md`) files.  But the build procedure is
-using [`mkdocs`](https://google.com/search?q=mkdocs)
-backend.  As a result, any commit into the `master`
-branch of github repository would result in CI/CD based
-build and deployment of the documentation including the
-journals.
-
-For a local DEV-version of the docs for viewing and
-testing, install the local env and issue the following
-command:
-
-``` shell
-make docs
-```
-
-### Local `env` for `docs`
-
-``` shell
+## Running the prototype locally
 
 ```
+cd code/blynk-app
+npm install
+npm run dev
+```
+
+Open `http://localhost:5173` and allow camera access.
+
+## Current status
+
+Core detection pipeline (webcam capture, real-time facial landmark tracking, blink detection via eye aspect ratio) is working. Screen-distance calibration, the live dashboard, break-enforcement, and local history are in active development. Full details are on the [project site](https://hardikk-777.github.io/UCS503P-202627-Blynk/).
