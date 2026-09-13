@@ -66,6 +66,7 @@ Open `http://localhost:5173` and allow camera access.
 | Gantt chart | 8 week development schedule | [View chart](diagrams/Blynk_gant_chart.pdf) |
 | Progress presentation | Introduction, background, methodology, and current results | [View PDF](diagrams/BlynkPresentation.pdf) |
 | Mid-semester report | Full prototype-stage evaluation report | [View PDF](../project-report-prototype-stage/blynk_midsem_report.pdf) |
+//
 
 ## 📅 Project roadmap
 
